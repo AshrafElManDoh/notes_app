@@ -9,6 +9,9 @@ class NoteItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      padding: const EdgeInsets.symmetric(
+        vertical: 18,
+      ),
       decoration: BoxDecoration(
           color: Colors.orange, borderRadius: BorderRadius.circular(16)),
       child: Column(
@@ -38,7 +41,7 @@ class NoteItem extends StatelessWidget {
             ),
           ),
           Padding(
-            padding: const EdgeInsets.only(right: 20, bottom: 20),
+            padding: const EdgeInsets.only(right: 20),
             child: Text(
               "6/10/2024 7:00",
               style: TextStyle(
