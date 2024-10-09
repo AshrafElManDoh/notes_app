@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:notes_app/constants.dart';
 
 class CustomIconButton extends StatelessWidget {
   const CustomIconButton({
@@ -15,7 +16,7 @@ class CustomIconButton extends StatelessWidget {
       ),
       child: IconButton(
         onPressed: () {},
-        icon:  Icon(icon),
+        icon:  Icon(icon,color: kprimaryColor,),
       ),
     );
   }
