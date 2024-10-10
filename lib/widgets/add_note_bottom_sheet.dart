@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:notes_app/widgets/custom_form_text_field.dart';
+import 'package:notes_app/widgets/custom_form_bottom_sheet.dart';
 
 class AddNoteBottomSheet extends StatelessWidget {
   const AddNoteBottomSheet({super.key});
@@ -13,7 +13,7 @@ class AddNoteBottomSheet extends StatelessWidget {
           top: 16,
           bottom: MediaQuery.of(context).viewInsets.bottom + 16),
       child: const SingleChildScrollView(
-        child: CustomFormTextField(),
+        child: CustomFormBottomSheet(),
       ),
     );
   }
